@@ -3,7 +3,12 @@ layout: page
 title: 关于我 
 ---
 
-一个 iOS SDK 开发者，喜欢研究一些新技术。
+主要从事计算机视觉相关研究与开发工作，尤其是应用深度学习技术的目标检测，跟踪及分割等方向。
+
+<p>
+
+推荐<a target="_blank" href='https://www.deeplearningbook.org/'>"深度学习"</a>技术与<a target="_blank" href='https://www.calnewport.com/books/deep-work/'>"深度工作"</a>方法
+
 <p>
 平时喜欢整理个人博客，逛逛技术论坛。
 <p>
