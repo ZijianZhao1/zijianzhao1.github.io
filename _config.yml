@@ -5,7 +5,7 @@ description: 欢迎来到我的主页
 # 头像里面的标题
 avatarTitle: Jason
 # 头像里面的描述
-avatarDesc: Computer Vision & Pattern Recognition
+avatarDesc: Computer Vision
 url: "http://www.zijian-zhao.com"
 
 # Comment
@@ -17,24 +17,24 @@ comment:
 # Social
 social:
     #weibo: 5366874726 
-    github: JasonZhao001
+    #github: JasonZhao001
     zhihu: JasonZhao666
+    mail: zhaozijianzzj@gmail.com
     # juejin: xxx
     # jianshu: 2ada30d8d0f7
     # twitter: 
-    mail: zhaozijianzzj@gmail.com
 
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
-baidu:
-    id: xxxx  
+#baidu:
+#    id: xxxx  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
-ga:
-    id: xxxx  
-    host: auto  
+#ga:
+#    id: xxxx  
+#    host: auto  
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》

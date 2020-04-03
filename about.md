@@ -5,12 +5,13 @@ title: 关于我
 
 主要从事计算机视觉相关研究与开发工作，尤其是应用深度学习技术的目标检测，跟踪及分割等方向。
 
+本科毕业于
 <p>
 
-推荐<a target="_blank" href='https://www.deeplearningbook.org/'>"深度学习"</a>技术与<a target="_blank" href='https://www.calnewport.com/books/deep-work/'>"深度工作"</a>方法
+推崇<a target="_blank" href='https://www.deeplearningbook.org/'>"深度学习"</a>技术与<a target="_blank" href='https://www.calnewport.com/books/deep-work/'>"深度工作"</a>方法
 
 <p>
-平时喜欢整理个人博客，逛逛技术论坛。
+学如逆水行舟，不进则退。本网站成立于2020年，期望
 <p>
 了解一些 前端 基本概念和 Python 的简单用法。
 
