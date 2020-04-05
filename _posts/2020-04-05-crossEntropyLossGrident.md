@@ -48,28 +48,28 @@ $$
 因为Logistic回归问题就是0/1的二分类问题，可以有
 
  $$ 
- P(\hat{y}^{(i)}=1|x^{(i)};\theta)=h_\theta(x^{(i)}),
+ P({\hat{y}}^{(i)}=1|x^{(i)};\theta)=h_\theta(x^{(i)}),
  $$ 
 
  $$
- P(\hat{y}^{(i)}=0|x^{(i)};\theta)=1-h_\theta(x^{(i)}).
+ P({\hat{y}}^{(i)}=0|x^{(i)};\theta)=1-h_\theta(x^{(i)}).
  $$
 
 现在，我们不考虑“熵”的概念，根据下面的说明，从简单直观角度理解，就可以得到我们想要的损失函数：我们将概率取对数，其单调性不变，有
 
 $$
-\log P(\hat{y}^{(i)}=1|x^{(i)};\theta)=\log h_\theta(x^{(i)})=\log\frac{1}{1+e^{-\theta^T x^{(i)}} },
+\log P({\hat{y}}^{(i)}=1|x^{(i)};\theta)=\log h_\theta(x^{(i)})=\log\frac{1}{1+e^{-\theta^T x^{(i)}} },
 $$
 
 $$ 
-\log P(\hat{y}^{(i)}=0|x^{(i)};\theta)=\log (1-h_\theta(x^{(i)}))=\log\frac{e^{-\theta^T x^{(i)}}}{1+e^{-\theta^T x^{(i)}} }.
+\log P({\hat{y}}^{(i)}=0|x^{(i)};\theta)=\log (1-h_\theta(x^{(i)}))=\log\frac{e^{-\theta^T x^{(i)}}}{1+e^{-\theta^T x^{(i)}} }.
 $$
 
 那么对于第$i$组样本，假设函数表征正确的组合对数概率为：
 
 $$
-I\{y^{(i)}=1\}\log P(\hat{y}^{(i)}=1|x^{(i)};\theta)+I\{y^{(i)}=0\}\log P(\hat{y}^{(i)}=0|x^{(i)};\theta)\\
-=y^{(i)}\log P(\hat{y}^{(i)}=1|x^{(i)};\theta)+(1-y^{(i)})\log P(\hat{y}^{(i)}=0|x^{(i)};\theta)\\
+I\{y^{(i)}=1\}\log P({\hat{y}}^{(i)}=1|x^{(i)};\theta)+I\{y^{(i)}=0\}\log P({\hat{y}}^{(i)}=0|x^{(i)};\theta)\\
+=y^{(i)}\log P({\hat{y}}^{(i)}=1|x^{(i)};\theta)+(1-y^{(i)})\log P({\hat{y}}^{(i)}=0|x^{(i)};\theta)\\
 =y^{(i)}\log(h_\theta(x^{(i)}))+(1-y^{(i)})\log(1-h_\theta(x^{(i)}))
 $$
 
