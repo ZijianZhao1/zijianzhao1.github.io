@@ -1,3 +1,13 @@
+---
+layout: post
+title: 交叉熵损失函数求导
+date: 2020-04-05 
+tags: 机器学习    
+---
+
+
+### 
+
 ## 目录
 
 
@@ -131,14 +141,22 @@ $$
 $$
 J(\theta) = -\left[ y^T \log h_\theta(x)+(1-y^T)\log(1-h_\theta(x))\right]\tag{2}
 $$
+
+
 将$h_\theta(x)=\frac{1}{1+e^{-\theta^T x} }$带入，得到：
+
+
 $$
 \begin{align} J(\theta) &= -\left[ y^T \log \frac{1}{1+e^{-\theta^T x} }+(1-y^T)\log\frac{e^{-\theta^T x}}{1+e^{-\theta^T x} }\right] \\
 &= -\left[ -y^T \log (1+e^{-\theta^T x}) + (1-y^T) \log e^{-\theta^T x} - (1-y^T)\log (1+e^{-\theta^T x})\right] \\
 &= -\left[(1-y^T) \log e^{-\theta^T x} - \log (1+e^{-\theta^T x}) \right]\\
 &= -\left[(1-y^T ) (-\theta^Tx) - \log (1+e^{-\theta^T x}) \right] \end{align} \\
 $$
+
+
 再对$\theta$求导，前面的负号直接削掉了，
+
+
 $$
 \begin{align}
 \frac{\partial}{\partial\theta_{j}}J(\theta) &= -\frac{\partial}{\partial\theta_{j}}\left[(1-y^T ) (-\theta^Tx) - \log (1+e^{-\theta^T x}) \right] \\
@@ -148,5 +166,10 @@ $$
 $$
 
 
+
 转载请注明：[赵子健的博客](zijian-zhao.com) » [机器学习系列](https://zijian-zhao.com/tags/#机器学习-ref) » [交叉熵损失函数的求导](zijian-zhao.com/2020/04/crossEntropyLossGrident/) [zijian-zhao.com/2020/04/crossEntropyLossGrident/]
+
+
+
+由于网站评论需要用户登陆，为方便大家，知乎专栏同步该文，如有疑问欢迎在知乎讨论：[人工+智能](https://zhuanlan.zhihu.com/p/125753431)
 
