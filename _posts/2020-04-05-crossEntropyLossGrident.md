@@ -157,7 +157,7 @@ $$
 $$
 \begin{align}
 \frac{\partial}{\partial\theta_{j}}J(\theta) &= -\frac{\partial}{\partial\theta_{j}}\left[(1-y^T ) (-\theta^Tx) - \log (1+e^{-\theta^T x}) \right] \\
-&= (1-y^T)x- \frac{e^{-\theta^T }}{1+e^{-\theta^T x} }x \\
+&= (1-y^T)x- \frac{e^{-\theta^Tx }}{1+e^{-\theta^T x} }x \\
 &= (\frac{1}{1+e^{-\theta^T x} } - y^T)x \\
 &= \left(h_\theta(x)-y^T \right)x \end{align}
 $$
