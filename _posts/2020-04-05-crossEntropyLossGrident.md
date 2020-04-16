@@ -164,7 +164,7 @@ $$
 
 
 
-本文写作于2015年人工智能硕士生课的课后小结，略加
+本文写作于2015年人工智能硕士生课的课后小结，略加修改。
 
 转载请注明：[赵子健的博客](zijian-zhao.com) » [机器学习系列](https://zijian-zhao.com/tags/#机器学习-ref) » [交叉熵损失函数的求导](zijian-zhao.com/2020/04/crossEntropyLossGrident/) [zijian-zhao.com/2020/04/crossEntropyLossGrident/]
 
