@@ -57,8 +57,8 @@ textColor: #FF0000
 cover_color: clear
 
 # The blog button should not be removed.
-blog_button:
-    - {title: 关于我, description: about, url: '/about'} 
+# blog_button:
+#     - {title: 关于我, description: about, url: '/about'} 
 
 # Navigation buttons in the front page.s
 nav:
