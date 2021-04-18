@@ -3,7 +3,7 @@ title: Zijian Zhao (赵子健, Aric)
 subtitle: Aric.Zhao@outlook.com
 description: I am a Research Engineer in the field of Computer Vision and Machine Learning working at Institute of Computing Technology, Chinese Academy of Science. 
 # 头像里面的标题
-avatarTitle: Aric
+avatarTitle: AI
 # 头像里面的描述
 avatarDesc: Computer Vision
 url: "http://www.zijian-zhao.com"
@@ -18,7 +18,7 @@ comment:
 social:
     #weibo: 5366874726 
     #github: JasonZhao001
-    zhihu: JasonZhao666
+    #zhihu: JasonZhao666
     mail: aric.zhao@outlook.com
     # juejin: xxx
     # jianshu: 2ada30d8d0f7
@@ -62,9 +62,9 @@ blog_button:
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: Experience, description: , url: '/archive'}   
-    - {title: Projects, description: projects, url: '/tags'}  
-    - {title: Papers, description: papers, url: '/tags'}    
+    #- {title: Experience, description: , url: '/archive'}   
+    #- {title: Projects, description: projects, url: '/tags'}  
+    #- {title: Papers, description: papers, url: '/tags'}    
     - {title: 关于我, description: about, url: '/about'}      
     
 
