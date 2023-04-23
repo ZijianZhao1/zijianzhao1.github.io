@@ -3,7 +3,12 @@ layout: page
 title: 关于我 
 ---
 
-主要从事计算机视觉相关研究与开发工作，研究主线为检测（通用/人脸/人体/交通），关键点定位（人脸/人体），分割（语义/实例/全景）等方向。面向移动端模型加速（模型高效应用），基于弱监督/无监督学习及蒸馏的模型精度提升（模型高效训练）。多模态学习，强化学习等方面。
+主要从事计算机视觉相关研究与开发工作，研究主线为检测（通用/人脸/人体/交通），关键点定位（人脸/人体），分割（语义/实例/全景）等方向。
+
+面向移动端模型加速（模型高效应用），基于弱监督/无监督学习及蒸馏的模型精度提升（模型高效训练）。
+
+多模态学习，强化学习等方面。
+
 
 <h3> 工作经历 </h3> 
 
@@ -11,21 +16,20 @@ title: 关于我
 
 从0-1为自动驾驶汽车实现以下感知能力：
 - L4:  
-		- Fingrained Classification：
-				- 特殊车辆分类(如施工车、公交车、卡车等)；
-		- 特殊行人分类(滑板车人、推购物车、婴儿车人等).
-	
+	- Fingrained Classification：
+		- 特殊车辆分类(如施工车、公交车、卡车等)；
+	  - 特殊行人分类(滑板车人、推购物车、婴儿车人等).
 	- Human Understanding: 
-	   - Pestrian Heading Estimation
-	   - Head Dedection
-	   - Accuerate Translation
-	   - Human Motion State.
+	  - Pestrian Heading Estimation
+	  - Head Dedection
+	  - Accuerate Translation
+	  - Human Motion State.
 	
 - L2++: 
-   - Model based Fusion
-      - Camera ReID
-      - Model Based BBox Association
-      - Model Based BBox Tracking.
+  - Model based Fusion
+    - Camera ReID
+    - Model Based BBox Association
+    - Model Based BBox Tracking.
 
 #### 中国科学院计算技术研究所（工程师，2018年-2021年）
 
@@ -63,8 +67,6 @@ title: 关于我
 	研究方向为面向智能交通系统的目标检测技术。
 - 北京航空航天大学（2011年-2015年）本科生
 	
-
-
 
 
 <h3> 如何联系我 </h3>  
