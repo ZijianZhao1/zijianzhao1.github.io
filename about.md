@@ -14,11 +14,13 @@ title: 关于我
 		- Fingrained Classification：
 				- 特殊车辆分类(如施工车、公交车、卡车等)；
 		- 特殊行人分类(滑板车人、推购物车、婴儿车人等).
+	
 	- Human Understanding: 
-			- Pestrian Heading Estimation
-		- Head Dedection
-		- Accuerate Translation
-		- Human Motion State.
+	   - Pestrian Heading Estimation
+	   - Head Dedection
+	   - Accuerate Translation
+	   - Human Motion State.
+	
 - L2++: 
    - Model based Fusion
       - Camera ReID
@@ -46,8 +48,6 @@ title: 关于我
   - 变电站危险行为分析
   - 教育行为检测与分析
   - 驾驶员视线估计
-
-
 
 #### 旷视科技Face++（实习研究员，2017年-2018年）
 
