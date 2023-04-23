@@ -7,7 +7,15 @@ title: 关于我
 
 <h3> 工作经历 </h3> 
 
-##### 中国科学院计算技术研究所（工程师，2018年-今）
+##### 小马智行Pony.ai (感知算法工程师，2021年-今)
+
+从0-1为自动驾驶汽车实现以下感知能力：
+- L4:   Fingrained Classification：特殊车辆分类(如施工车、公交车、卡车等)；特殊行人分类(滑板车人、推购物车、婴儿车人等).
+		Human Understanding: Pestrian Heading Estimation, Head Dedection, Accuerate Translation, Human Motion State.
+- L2++: Model based Fusion, Camera ReID, Model Based BBox Association, Model Based BBox Tracking.
+
+
+##### 中国科学院计算技术研究所（工程师，2018年-2021年）
 
 ​		负责VIPL课题组以目标检测为核心的研究与开发工作，如人脸检测与跟踪（手机/监控/车载，RGB/NIR），人体检测（RGB/Thermal/Depth），交通标志检测，障碍物检测，电网缺陷检测，变电站危险行为分析，异常动作检测与分析，驾驶员视线估计等。
 
@@ -15,7 +23,8 @@ title: 关于我
 
 ##### 旷视科技Face++（实习研究员，2017年-2018年）
 
-​		从事人体检测，视频物体检测相关工作负责制作CrowdHuman密集人体检测数据集，并搭建其Benchmark，在多个数据集上去得state-of-the-art的结果。
+​		从事人体检测，视频物体检测相关工作。
+       负责制作CrowdHuman密集人体检测数据集，并搭建其Benchmark，在多个数据集上去得state-of-the-art的结果。
 
 <h3> 学习经历 </h3> 
 

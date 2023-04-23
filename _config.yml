@@ -63,7 +63,7 @@ blog_button:
 # Navigation buttons in the front page.s
 nav:
     #- {title: Experience, description: , url: '/archive'}   
-    #- {title: Projects, description: projects, url: '/tags'}  
+    - {title: Projects, description: projects, url: '/tags'}  
     #- {title: Papers, description: papers, url: '/tags'}    
     - {title: 关于我, description: about, url: '/about'}      
     
