@@ -10,18 +10,18 @@ url: "http://www.zijian-zhao.com"
 
 # Comment
 comment:
-    disqus: leopard
+    # disqus: xxx
     # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
-    # uyan: 2143225  # 有言id,登录有言官网申请
+    # uyan:   # 有言id,登录有言官网申请
 
 # Social
 social:
-    #weibo: 5366874726 
+    #weibo:  
     #github: JasonZhao001
     #zhihu: JasonZhao666
     mail: aric.zhao@outlook.com
-    # juejin: xxx
-    # jianshu: 2ada30d8d0f7
+    # juejin: 
+    # jianshu: 
     # twitter: 
 
 
